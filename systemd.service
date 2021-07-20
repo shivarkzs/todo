@@ -1,7 +1,7 @@
 [Unit]
 Description =Todo Service
-[Service]
 
+[Service]
 Environment=REDIS_HOST=redis-endpoint
 ExecStart=bin/node /home/ubuntu/todo/server.js
 
