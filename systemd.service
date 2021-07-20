@@ -1,7 +1,5 @@
-
-
 [Unit]
-Description = todo Service
+Description =Todo Service
 [Service]
 
 Environment=REDIS_HOST=redis-endpoint
