@@ -1,10 +1,9 @@
 [Unit]
-Description =Todo Service
+Description=Todo Service
 
 [Service]
 Environment=REDIS_HOST=redis-endpoint
 ExecStart=/bin/node /home/ubuntu/todo/server.js
-
 SyslogIdentifier =todo
 
 [Install]
